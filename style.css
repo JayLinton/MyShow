@@ -1,0 +1,89 @@
+a:link,a:visited{
+    text-decoration:none;  /*超链接无下划线*/
+    color:beige;
+}
+a:hover{
+    /*text-decoration:underline;  /*鼠标放上去有下划线*/
+    color: #eeff077a;
+}
+
+#header{
+    height:50px;
+    color:beige;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 50px; /*设置line-height与父级元素的height相等*/
+    border: 0ch;
+    margin-bottom:auto;
+    box-shadow: 5px 5px 5px #8888887a;
+}
+
+#box{
+    height: auto;
+    color:rgb(0, 0, 0);
+    /*background-color: beige;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*line-height: 50px; /*设置line-height与父级元素的height相等*/
+    margin-bottom:auto;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.bdiv{
+    color: aliceblue;
+    background-color: rgb(140, 149, 230);
+    text-align: center; /*让div内部文字居中*/
+    border-radius: 20px;
+    width: 350px;
+	height: 350px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    box-shadow: 5px 5px 5px #8888887a;
+}
+
+.footer{
+    padding: 10px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px #8888887a;
+  }
+
+.card {
+    background-color: rgb(170, 214, 231);
+    padding: 10px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-right: 450px;
+    box-shadow: 5px 5px 5px #8888887a;
+    border-radius: 5px;
+}
+
+/*#zhengti{
+    background-color: rgba(59, 55, 59, 0.445);
+}*/
+
+#right_div{
+    background-color: rgb(170, 214, 231);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 10px;
+    box-shadow: 5px 5px 5px #8888887a;
+    float: right;
+}
